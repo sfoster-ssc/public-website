@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# Environment files
+.env
+
+# OneDrive/temp
+~$*
+
+# Build outputs
+dist/
+build/
+
+# Ignore sensitive local files
+secret-*.json
