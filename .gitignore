@@ -18,6 +18,9 @@ __pycache__/
 # Environment files
 .env
 
+# Local documentation
+README.md
+
 # OneDrive/temp
 ~$*
 
