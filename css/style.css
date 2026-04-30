@@ -100,3 +100,60 @@ textarea, input[type="text"], input[type="email"], select {
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.9);
 }
+
+.hero {
+    padding: 1rem 0 2rem 0;
+}
+
+.lead {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #0f1a2e;
+    margin: 1rem 0;
+}
+
+.content-card {
+    margin-top: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 0.9rem 1.4rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #00bfff 0%, #008fb3 100%);
+    color: white;
+}
+
+.btn-secondary {
+    background: #e9eef5;
+    color: #0f1a2e;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    transform: translateY(-2px);
+}
+
+.content-card ul {
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+}
+
+.content-card li {
+    margin-bottom: 0.6rem;
+}
