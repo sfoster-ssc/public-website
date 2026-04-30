@@ -3,30 +3,151 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$147 Hybrid Cloud Audit Checklist</title>
+  <title>Hybrid Cloud Audit Checklist</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <h1>Stratus Solutions Consulting</h1>
-    <h2>Independent Technology Advisor for Mid-Market Infrastructure and Security</h2>
+    <p>Independent Technology Advisor for Mid-Market Infrastructure and Security</p>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../services.html">Services</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
   </header>
-  
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="../services.html">Services</a>
-    <a href="../about.html">About</a>
-    <a href="../contact.html">Contact</a>
-  </nav>
-  
+
   <main>
-    <h1>Fractional IT: Hybrid Cloud Audit</h1>
-<ul>
-<li>Nutanix/VMware/Azure Stack HCI assessment</li>
-<li>Storage: Pure/HPE/NetApp</li>
-<li>DR: Veeam/Zerto</li>
-</ul>
-<p><a href="#">Buy $147</a></p> <!-- Stripe/Gumroad later -->
+    <section class="hero">
+      <h1>Hybrid Cloud Audit Checklist</h1>
+      <p class="lead">
+        Validate your hybrid infrastructure, data protection, and DR readiness before risk turns into downtime.
+      </p>
+      <p>
+        A practical audit for infrastructure, backup, and recovery teams.
+        Built for leaders who need clarity fast, and operators who need something they can run with.
+      </p>
+      <div class="cta-group">
+        <a class="btn-primary" href="#">Buy the checklist</a>
+        <a class="btn-secondary" href="owner-clarity.html">See the owner's view</a>
+      </div>
+    </section>
+
+    <section class="content-card">
+      <h2>Who this is for</h2>
+      <p>
+        <strong>Teams that need guided assessment.</strong>
+        If your team is stretched thin, lacks DR expertise, or is transitioning to hybrid,
+        the checklist helps you find and prioritize gaps quickly. I can walk through the results
+        and turn them into a focused action plan.
+      </p>
+      <p>
+        <strong>Teams that want to self-assess.</strong>
+        If you have the time and skills to work through the audit yourself,
+        this checklist gives you a structured framework to validate your environment
+        and identify weak points.
+      </p>
+    </section>
+
+    <section class="content-card">
+      <h2>What this checklist covers</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <span class="service-icon">🧭</span>
+          <h3>Discovery and scope</h3>
+          <p>Identify systems, owners, dependencies, and business-critical workloads.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">💾</span>
+          <h3>Data protection</h3>
+          <p>Review backup, restore, immutability, retention, and replication.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">↩️</span>
+          <h3>Recovery readiness</h3>
+          <p>Test failover, RTO, RPO, and failback with real dependencies.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">🔒</span>
+          <h3>Security and operations</h3>
+          <p>Validate access, monitoring, alerting, and recovery runbooks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-card">
+      <h2>Why it matters</h2>
+      <p>
+        A hybrid stack can look stable while hiding gaps in recovery, ownership, or operational readiness.
+        This checklist helps you identify weak points before they show up as downtime, failed restores, or audit surprises.
+      </p>
+      <ul>
+        <li>Confirm the environment can meet realistic recovery objectives (RTO/RPO).</li>
+        <li>Verify backups are restorable, not just scheduled.</li>
+        <li>Check failover paths, dependencies, and communication steps.</li>
+        <li>Ensure runbooks are current and accessible during an outage.</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Discovery and scope</h2>
+      <ul>
+        <li>Confirm the systems, platforms, and applications in scope.</li>
+        <li>Identify the owners for infrastructure, storage, backup, and DR.</li>
+        <li>Map dependencies between applications, databases, DNS, identity, and network services.</li>
+        <li>Note which workloads are business-critical and which are lower priority.</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Data protection</h2>
+      <ul>
+        <li>Verify backups are actually restorable.</li>
+        <li>Confirm backup frequency supports the required RPO.</li>
+        <li>Check retention policies and immutability protections.</li>
+        <li>Review replication lag and offsite copy status.</li>
+        <li>Confirm backup copies are isolated from production access.</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Recovery readiness</h2>
+      <ul>
+        <li>Validate the documented RTO for each critical workload.</li>
+        <li>Test restore procedures from at least one recent point in time.</li>
+        <li>Confirm the correct boot order for dependent systems.</li>
+        <li>Verify DNS, authentication, and connectivity steps in a failover.</li>
+        <li>Document how failback works after the primary site is restored.</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Security and operations</h2>
+      <ul>
+        <li>Confirm least-privilege access for recovery tasks.</li>
+        <li>Review alerting for backup failures and replication delays.</li>
+        <li>Confirm logging is available during and after a recovery event.</li>
+        <li>Verify that runbooks are current and accessible during an outage.</li>
+        <li>Make sure the right people can declare a disaster and trigger recovery.</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Next steps</h2>
+      <div class="cta-group">
+        <a class="btn-primary" href="#">Get the checklist</a>
+        <a class="btn-secondary" href="../contact.html">Need help interpreting gaps?</a>
+      </div>
+      <p style="margin-top: 1rem;">
+        <strong>Need help with discovery?</strong> Book a 15-minute conversation. I can help interpret gaps,
+        prioritize options, and map the checklist to your environment.
+      </p>
+      <p>
+        <strong>Ready to run it yourself?</strong> Download the checklist and start with discovery.
+        If you hit ambiguity around strategy or tooling, come back and book a conversation.
+      </p>
+    </section>
   </main>
 </body>
 </html>
